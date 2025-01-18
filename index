@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/image/cropped-Logo-e1662790239183.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>HEI Admin</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="logo-conteiner">
+          <div class="logo-items">
+            <img
+              src="./assets/image/cropped-Logo-e1662790239183.png"
+              alt="hei-logo"
+            />
+            <h4>HEI Admin</h4>
+          </div>
+          <a href="#">Mon Profil</a>
+        </div>
+        <div class="info-conetiner">
+          <div class="info">
+            <div class="img"> <img src="./assets/image/bandyMilamina.jpg" alt="Profil" /></div>
+           
+            <div class="avatar">
+              <h4>Franco Itobiantsoa</h4>
+              <span>Etudiant</span>
+            </div>
+          </div>
+          <div class="ads">
+            <span class="material-symbols-outlined"> calendar_month </span>
+            <span class="material-symbols-outlined feedback"> feedback </span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ------------------ main profile ------------------------ -->
+    <main>
+      <aside>
+        <div class="slide-bar">
+          <ul>
+            <li>
+              <a href="#" id="profil">
+                <span class="material-symbols-outlined"> account_circle </span
+                >Profil</a
+              >
+            </li>
+            <li>
+              <label for="school">
+                <span class="material-symbols-outlined"> school </span>Etudiant
+                <span class="material-symbols-outlined arrow">
+                  arrow_drop_down
+                </span>
+              </label>
+              <a href="#" id="list"
+                ><span class="material-symbols-outlined"> group </span>Liste des
+                étudiants</a
+              >
+            </li>
+            <li>
+              <a href="#" id="ads">
+                <span class="material-symbols-outlined"> newspaper </span
+                >Annnonces</a
+              >
+            </li>
+          </ul>
+          <span>
+            <a href="#">
+              <span class="material-symbols-outlined"> logout </span>Se
+              déconnecter</a
+            ></span
+          >
+        </div>
+      </aside>
+      <section class="info-profil-conteiner">
+        <div class="profil-conteiner">
+          <img
+            src="./assets/image/Assets3.jpg"
+            alt="couverture"
+            id="couverture"
+          />
+          <img
+            src="./assets/image/bandyMilamina.jpg"
+            alt="profil"
+            class="profil-img"
+          />
+          <span class="material-symbols-outlined" id="camera">
+            photo_camera
+          </span>
+          <div class="detail">
+            <div class="profil-items">
+              <h2>Franco Itobiantsoa ARO</h2>
+              <h3>STD24029</h3>
+              <H4>K2</H4>
+            </div>
+            <button>
+              <span class="material-symbols-outlined"> download_2 </span
+              >cértificat
+            </button>
+          </div>
+          <div class="switch-items">
+            <input type="radio" checked name="switch-items" id="switch" />
+            <label for="switch">
+              <h5>détail du profil</h5>
+            </label>
+            <input type="radio" name="switch-items" id="box" />
+            <label for="box">
+              <h5>boite aux lettres</h5>
+            </label>
+          </div>
+        </div>
+        <div class="detail-items">
+          <div class="coordonee-card">
+            <div class="info-card">
+              <ul>
+                <li>
+                  <span class="material-symbols-outlined"> mail </span>
+                  <div class="email">
+                    <p>email</p>
+                    <a href="#">email@gmail.com</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="material-symbols-outlined"> location_on </span>
+                  <div class="location_on">
+                    <p>Adresse</p>
+                    <span>Nowhere</span>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <span class="material-symbols-outlined"> phone </span>
+                  <div class="telephone">
+                    <p>telephone</p>
+                    <span>+261323542618</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="material-symbols-outlined"> map </span>
+                  <div class="geo">
+                    <p>géolocalisation</p>
+                    <span>unknow</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
